@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/gabrields/MEGA/Projects/camera_example/build/bootloader/bootloader.elf
+file /home/gabrields/MEGA/Projects/final_pds/build/bootloader/bootloader.elf

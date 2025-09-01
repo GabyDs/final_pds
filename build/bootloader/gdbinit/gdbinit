@@ -1,2 +1,2 @@
-source /home/gabrields/MEGA/Projects/camera_example/build/bootloader/gdbinit/symbols
-source /home/gabrields/MEGA/Projects/camera_example/build/bootloader/gdbinit/connect
+source /home/gabrields/MEGA/Projects/final_pds/build/bootloader/gdbinit/symbols
+source /home/gabrields/MEGA/Projects/final_pds/build/bootloader/gdbinit/connect

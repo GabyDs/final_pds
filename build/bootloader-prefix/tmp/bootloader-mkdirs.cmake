@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/gabrields/ESP-IDF/v5.5/esp-idf/components/bootloader/subpro
   file(MAKE_DIRECTORY "/home/gabrields/ESP-IDF/v5.5/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader"
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix"
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/tmp"
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/src"
-  "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/tmp"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/src"
+  "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/gabrields/MEGA/Projects/camera_example/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/gabrields/MEGA/Projects/final_pds/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
