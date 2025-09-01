@@ -1,2 +1,2 @@
-source /home/gabrields/MEGA/Projects/camera_example/build/gdbinit/symbols
-source /home/gabrields/MEGA/Projects/camera_example/build/gdbinit/connect
+source /home/gabrields/MEGA/Projects/final_pds/build/gdbinit/symbols
+source /home/gabrields/MEGA/Projects/final_pds/build/gdbinit/connect

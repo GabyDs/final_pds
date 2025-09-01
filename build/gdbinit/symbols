@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/gabrields/MEGA/Projects/camera_example/build/bootloader/bootloader.elf
+    add-symbol-file /home/gabrields/MEGA/Projects/final_pds/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/gabrields/MEGA/Projects/camera_example/build/camera_example.elf
+file /home/gabrields/MEGA/Projects/final_pds/build/final_pds.elf
